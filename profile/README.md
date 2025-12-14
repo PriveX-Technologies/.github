@@ -1,65 +1,95 @@
 # 👋 Hi, we’re **Privex Technologies**
 
-🚀 **Engineering intelligent systems across AI, IoT, and secure software.**
+🚀 **Engineering intelligent systems across software, AI, IoT, and secure infrastructure.**
 
 ---
 
 ## 🧠 What We Do
-At **Privex Technologies**, we design and build **modern software, AI-driven systems, and IoT solutions** with a strong focus on **security, performance, and reliability**.
+**Privex Technologies** builds **real-world technology systems** that combine software, hardware, and intelligence — with a strong emphasis on **security, performance, and scalability**.
 
-### Our focus areas:
-- 🤖 **AI & Computer Vision**
-- 🔌 **IoT & Embedded Systems**
-- 🛡️ **Secure system design**
-- 🎮 **Real-time interaction & gesture technology**
-- 🌐 **Cross-platform development**
-- 🔬 **Research & experimental engineering**
+We don’t chase hype.  
+We engineer things that **work**.
 
 ---
 
-## 🔌 IoT & Embedded
-We work on **end-to-end IoT systems**, including:
-- 📡 Sensor networks & data acquisition  
-- ⚙️ Microcontrollers & embedded Linux  
-- 🧠 Edge processing & local intelligence  
-- 🌐 Device communication & system integration  
+## 🔧 Core Domains
 
-Built for **real-world use**, not demos.
+### 🤖 AI & Intelligent Systems
+- Computer vision & real-time tracking  
+- Gesture-based interaction systems  
+- AI pipelines & inference engines  
+- Edge AI & performance-critical processing  
 
 ---
 
-## 🔐 Security (Practical, not buzzwords)
-Security is treated as an **engineering requirement**, not just a feature:
-- Secure communication & data handling  
+### 🔌 IoT & Embedded Systems
+- Sensor-based systems & data acquisition  
+- Microcontrollers & embedded Linux  
+- Device-to-device & device-to-cloud communication  
+- Edge processing & smart control systems  
+- Environmental, industrial & experimental monitoring  
+
+---
+
+### 🔐 Security (Engineering-focused)
+- Secure system architecture  
+- Safe data handling & communication  
 - System hardening & reliability  
-- Local-first and edge-aware designs where it matters  
+- Security as a **design constraint**, not an afterthought  
+
+---
+
+### 🎮 Real-Time & Interactive Tech
+- Gesture & motion-driven interfaces  
+- Mixed-reality & interactive environments  
+- Low-latency, high-performance systems  
+
+---
+
+### 🌐 Software & Platforms
+- Cross-platform development  
+- Backend & system integration  
+- Tooling, automation & developer utilities  
+
+---
+
+### 🔬 Research & Development
+- Experimental prototypes  
+- Hardware–software co-design  
+- Proof-of-concept systems  
+- Innovation-driven engineering  
 
 ---
 
 ## 🧩 Projects
 - ✋ **GEM** – Gesture-based interaction & mixed-reality systems  
-- 🔌 **IoT R&D** – Smart devices, sensing systems, edge compute  
-- 🧠 **AI Systems** – Vision pipelines, tracking, real-time inference  
+- 🔌 **IoT Systems** – Smart devices, sensing & control platforms  
+- 🧠 **AI Systems** – Vision, tracking & real-time inference  
+- 🛠️ **Internal Tools & R&D** – Experimental & research projects  
 
 > Some projects are private or under active development 🚧
 
 ---
 
 ## 🤝 Collaboration
-We’re open to working with:
-- Developers & engineers 👩‍💻👨‍💻  
-- AI, IoT, and embedded specialists 🔧  
-- Research-driven teams and innovators 🧠  
+We collaborate with:
+- Software & hardware engineers 👩‍💻👨‍💻  
+- AI, IoT & embedded specialists 🔧  
+- Research-driven teams & innovators 🧠  
+
+If you like **building serious tech**, we’ll get along.
 
 ---
 
 ## 🌱 Vision
-To build **robust, intelligent, and scalable technology** that bridges:
-- Software × Hardware  
-- AI × Real-world systems  
-- Research × Production  
+To create technology that is:
+- **Robust**
+- **Intelligent**
+- **Secure by design**
+- **Grounded in real-world use**
+- **Future-ready**
 
 ---
 
-> _“Build it right. Make it work. Then make it better.”_  
+> _“Strong engineering beats clever shortcuts.”_  
 — **Privex Technologies**
