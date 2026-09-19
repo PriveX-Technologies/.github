@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" role="img" aria-label="Software icon">
+  <title>Software &amp; Platforms</title>
+  <rect x="1.25" y="1.25" width="57.5" height="57.5" rx="16" fill="#0b1033"/>
+  <rect x="1.25" y="1.25" width="57.5" height="57.5" rx="16" fill="none" stroke="#2f81f7" stroke-opacity="0.6" stroke-width="1.5"/>
+  <g stroke="#93c5fd" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 24 22 L 15 30 L 24 38"/>
+    <path d="M 36 22 L 45 30 L 36 38"/>
+    <path d="M 32.5 19 L 27.5 41"/>
+    <animate attributeName="stroke-opacity" values="1;0.55;1" dur="3s" repeatCount="indefinite"/>
+  </g>
+  <circle cx="15" cy="30" r="2.4" fill="#2f81f7">
+    <animate attributeName="fill-opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="45" cy="30" r="2.4" fill="#2f81f7">
+    <animate attributeName="fill-opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

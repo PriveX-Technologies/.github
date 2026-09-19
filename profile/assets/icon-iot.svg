@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" role="img" aria-label="IoT icon">
+  <title>IoT &amp; Embedded Systems</title>
+  <rect x="1.25" y="1.25" width="57.5" height="57.5" rx="16" fill="#0b1033"/>
+  <rect x="1.25" y="1.25" width="57.5" height="57.5" rx="16" fill="none" stroke="#2f81f7" stroke-opacity="0.6" stroke-width="1.5"/>
+  <path d="M 18 20 A 17 17 0 0 1 42 20" fill="none" stroke="#2f81f7" stroke-width="2" stroke-linecap="round">
+    <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 23 25 A 10 10 0 0 1 37 25" fill="none" stroke="#2f81f7" stroke-width="2" stroke-linecap="round">
+    <animate attributeName="stroke-opacity" values="1;0.35;1" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+  <rect x="24.5" y="32" width="11" height="12" rx="2.5" fill="none" stroke="#93c5fd" stroke-width="2"/>
+  <circle cx="30" cy="38" r="1.6" fill="#93c5fd"/>
+  <circle cx="30" cy="47.5" r="2.5" fill="#2f81f7">
+    <animate attributeName="fill-opacity" values="1;0.3;1" dur="1.9s" repeatCount="indefinite"/>
+  </circle>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" role="img" aria-label="Security icon">
+  <title>Security Engineering</title>
+  <rect x="1.25" y="1.25" width="57.5" height="57.5" rx="16" fill="#330b14"/>
+  <rect x="1.25" y="1.25" width="57.5" height="57.5" rx="16" fill="none" stroke="#f43f5e" stroke-opacity="0.6" stroke-width="1.5"/>
+  <path d="M 30 10 L 45 15.5 V 29 C 45 38.5 38.8 46.6 30 50 C 21.2 46.6 15 38.5 15 29 V 15.5 Z" fill="none" stroke="#f43f5e" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 25 30 L 28.5 33.5 L 35.5 25" fill="none" stroke="#fecdd3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="30" cy="7.5" r="2" fill="#f43f5e">
+    <animate attributeName="fill-opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+</svg>

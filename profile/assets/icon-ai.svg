@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" role="img" aria-label="AI icon">
+  <title>AI &amp; Intelligent Systems</title>
+  <rect x="1.25" y="1.25" width="57.5" height="57.5" rx="16" fill="#1a0b33"/>
+  <rect x="1.25" y="1.25" width="57.5" height="57.5" rx="16" fill="none" stroke="#7c3aed" stroke-opacity="0.6" stroke-width="1.5"/>
+  <g stroke="#7c3aed" stroke-width="1.7" fill="none" stroke-linecap="round">
+    <line x1="30" y1="10" x2="30" y2="16"><animate attributeName="stroke-opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/></line>
+    <line x1="30" y1="44" x2="30" y2="50"><animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></line>
+    <line x1="10" y1="30" x2="16" y2="30"><animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="0.8s" repeatCount="indefinite"/></line>
+    <line x1="44" y1="30" x2="50" y2="30"><animate attributeName="stroke-opacity" values="1;0.3;1" dur="3s" begin="0.8s" repeatCount="indefinite"/></line>
+  </g>
+  <rect x="18" y="18" width="24" height="24" rx="7" fill="none" stroke="#c4b5fd" stroke-width="2"/>
+  <circle cx="25.5" cy="27" r="2.6" fill="#c4b5fd">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="34.5" cy="27" r="2.6" fill="#c4b5fd">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M 25 34.5 H 35" stroke="#c4b5fd" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="30" cy="8" r="2.5" fill="#7c3aed">
+    <animate attributeName="fill-opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="30" cy="52" r="2.5" fill="#7c3aed">
+    <animate attributeName="fill-opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="8" cy="30" r="2.5" fill="#7c3aed">
+    <animate attributeName="fill-opacity" values="1;0.4;1" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="52" cy="30" r="2.5" fill="#7c3aed">
+    <animate attributeName="fill-opacity" values="0.4;1;0.4" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>

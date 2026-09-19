@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Privex Technologies - Engineering Intelligent Systems. Domains: Software - AI - Hardware - IoT - Security - R&amp;D">
+  <title>Privex Technologies — Engineering Intelligent Systems</title>
+  <desc>Futuristic engineering header with a circuit mesh, moving particles and pulsing nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d0221">
+        <animate attributeName="stop-color" values="#0d0221;#141038;#0d0221" dur="16s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#0b1130">
+        <animate attributeName="stop-color" values="#0b1130;#101c4a;#0b1130" dur="16s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#090512">
+        <animate attributeName="stop-color" values="#090512;#2a0a1c;#090512" dur="16s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="prxFlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.5" stop-color="#2f81f7"/>
+      <stop offset="1" stop-color="#f43f5e"/>
+    </linearGradient>
+
+    <linearGradient id="prxTitle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c4b5fd"/>
+      <stop offset="0.55" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fda4af"/>
+    </linearGradient>
+
+    <linearGradient id="prxGrid" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#2f81f7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f43f5e" stop-opacity="0.30"/>
+    </linearGradient>
+
+    <linearGradient id="prxScrub" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#9b8cff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#f43f5e" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="glowP" cx="0" cy="0" r="1">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1">
+      <stop offset="0" stop-color="#2f81f7" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#2f81f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowR" cx="0" cy="0" r="1">
+      <stop offset="0" stop-color="#f43f5e" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#f43f5e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="heroHalo" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.16"/>
+      <stop offset="0.6" stop-color="#1b1444" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#0d0221" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <filter id="neon" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 H 0 V 42" fill="none" stroke="#8b5cf6" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+
+    <g id="prxLogoG" transform="scale(1.25) translate(-19,-21)">
+      <path d="M 15 8 H 33 V 22 H 24.5 L 33.5 34 H 24.5 L 15.5 22 H 15 Z" fill="url(#prxFlow)"/>
+      <circle cx="24" cy="15" r="4.2" fill="#0d0221"/>
+      <circle cx="24" cy="15" r="1.7" fill="#c4b5fd"/>
+    </g>
+  </defs>
+
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <rect width="1280" height="420" fill="url(#grid)"/>
+  <rect width="1280" height="420" fill="url(#heroHalo)"/>
+
+  <circle cx="150" cy="340" r="130" fill="url(#glowP)" filter="url(#soft)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1120" cy="330" r="130" fill="url(#glowB)" filter="url(#soft)">
+    <animate attributeName="opacity" values="1;0.65;1" dur="11s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1210" cy="60" r="120" fill="url(#glowR)" filter="url(#soft)">
+    <animate attributeName="opacity" values="0.8;0.5;0.8" dur="13s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="90" cy="40" r="90" fill="url(#glowP)" filter="url(#soft)">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <g opacity="0.7">
+    <path d="M 70 92 H 250 L 286 128 H 420" fill="none" stroke="#7c3aed" stroke-opacity="0.16" stroke-width="1.2"/>
+    <path d="M 1236 96 H 1100 L 1064 132 H 940" fill="none" stroke="#f43f5e" stroke-opacity="0.15" stroke-width="1.2"/>
+    <path d="M 74 332 H 230 L 262 300 H 418" fill="none" stroke="#2f81f7" stroke-opacity="0.14" stroke-width="1.2"/>
+    <path d="M 1232 318 H 1080 L 1044 286 H 886" fill="none" stroke="#7c3aed" stroke-opacity="0.15" stroke-width="1.2"/>
+    <rect x="232" y="86" width="12" height="12" rx="2" fill="none" stroke="#7c3aed" stroke-opacity="0.35" stroke-width="1.2"/>
+    <rect x="1052" y="126" width="12" height="12" rx="2" fill="none" stroke="#f43f5e" stroke-opacity="0.35" stroke-width="1.2"/>
+    <rect x="1040" y="280" width="12" height="12" rx="2" fill="none" stroke="#2f81f7" stroke-opacity="0.35" stroke-width="1.2"/>
+    <rect x="256" y="294" width="12" height="12" rx="2" fill="none" stroke="#7c3aed" stroke-opacity="0.35" stroke-width="1.2"/>
+  </g>
+
+  <g>
+    <path d="M 0 168 H 1280" stroke="#8b5cf6" stroke-opacity="0.05" stroke-width="1" fill="none"/>
+    <path d="M 0 252 H 1280" stroke="#8b5cf6" stroke-opacity="0.05" stroke-width="1" fill="none"/>
+    <rect x="0" y="166" width="340" height="4" fill="url(#prxScrub)" opacity="0.5">
+      <animate attributeName="x" values="-340;1280" dur="13s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="250" width="340" height="4" fill="url(#prxScrub)" opacity="0.5">
+      <animate attributeName="x" values="1280;-340" dur="17s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g stroke="url(#prxGrid)" stroke-width="1.4" fill="none" stroke-linecap="round">
+    <path d="M 320 210 H 394 L 428 176 H 502">
+      <animate attributeName="stroke-dashoffset" from="260" to="0" dur="4.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="5.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 960 210 H 886 L 852 244 H 778">
+      <animate attributeName="stroke-dashoffset" from="260" to="0" dur="5.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;0.95;0.55" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 556 176 V 120 H 630 V 96">
+      <animate attributeName="stroke-dashoffset" from="220" to="0" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 724 244 V 300 H 650 V 324">
+      <animate attributeName="stroke-dashoffset" from="220" to="0" dur="5.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="6.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 502 244 V 288 H 556 V 324" opacity="0.75">
+      <animate attributeName="opacity" values="0.75;0.35;0.75" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 778 176 V 132 H 724 V 96" opacity="0.75">
+      <animate attributeName="opacity" values="0.35;0.75;0.35" dur="8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="url(#prxFlow)" opacity="0.8">
+    <circle cx="556" cy="176" r="3.5"/>
+    <circle cx="724" cy="244" r="3.5"/>
+    <circle cx="502" cy="244" r="3"/>
+    <circle cx="778" cy="176" r="3"/>
+  </g>
+  <g fill="none" stroke="#9b8cff" stroke-width="1.2" stroke-opacity="0.5">
+    <circle cx="556" cy="176" r="8">
+      <animate attributeName="r" values="6;14;6" dur="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="724" cy="244" r="8">
+      <animate attributeName="r" values="6;14;6" dur="3.8s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="3.8s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g>
+    <circle cx="452" cy="88" r="2.4" fill="#c4b5fd" opacity="0.8">
+      <animate attributeName="cy" values="88;300;88" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.85;0" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="836" cy="330" r="2.2" fill="#93c5fd" opacity="0.8">
+      <animate attributeName="cy" values="330;96;330" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.85;0" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1014" cy="120" r="2" fill="#fda4af" opacity="0.8">
+      <animate attributeName="cy" values="120;312;120" dur="12.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0" dur="12.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="264" cy="300" r="2" fill="#c4b5fd" opacity="0.7">
+      <animate attributeName="cy" values="300;104;300" dur="9.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.75;0" dur="9.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="920" cy="70" r="1.8" fill="#93c5fd" opacity="0.7">
+      <animate attributeName="cy" values="70;330;70" dur="15s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="15s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g transform="translate(544,64)">
+    <rect x="0" y="0" width="192" height="60" rx="14" fill="#14102e" fill-opacity="0.85" stroke="#3b2a63" stroke-width="1"/>
+    <use href="#prxLogoG" x="20" y="14"/>
+    <text x="58" y="38" font-family="'Segoe UI',Ubuntu,-apple-system,Helvetica,Arial,sans-serif" font-size="21" font-weight="700" letter-spacing="2" fill="#e9e4ff">PRIVEX</text>
+  </g>
+
+  <text x="640" y="212" text-anchor="middle" font-family="'Segoe UI',Ubuntu,-apple-system,Helvetica,Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="12" fill="url(#prxTitle)">PRIVEX TECHNOLOGIES</text>
+  <text x="640" y="212" text-anchor="middle" font-family="'Segoe UI',Ubuntu,-apple-system,Helvetica,Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="12" fill="#7c3aed" opacity="0.35" filter="url(#neon)">PRIVEX TECHNOLOGIES</text>
+  <text x="640" y="248" text-anchor="middle" font-family="'Segoe UI',Ubuntu,-apple-system,Helvetica,Arial,sans-serif" font-size="21" font-weight="500" letter-spacing="7.5" fill="#c9d4ff">ENGINEERING INTELLIGENT SYSTEMS</text>
+
+  <rect x="500" y="272" width="280" height="2.5" rx="1.25" fill="url(#prxFlow)"/>
+
+  <g font-family="'Segoe UI',Ubuntu,-apple-system,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" text-anchor="middle">
+    <rect x="296" y="306" width="106" height="30" rx="15" fill="#7c3aed" fill-opacity="0.14" stroke="#7c3aed" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="349" y="326" fill="#c4b5fd">SOFTWARE</text>
+    <rect x="418" y="306" width="66" height="30" rx="15" fill="#2f81f7" fill-opacity="0.14" stroke="#2f81f7" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="451" y="326" fill="#93c5fd">AI</text>
+    <rect x="500" y="306" width="106" height="30" rx="15" fill="#f43f5e" fill-opacity="0.13" stroke="#f43f5e" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="553" y="326" fill="#fda4af">HARDWARE</text>
+    <rect x="622" y="306" width="66" height="30" rx="15" fill="#7c3aed" fill-opacity="0.14" stroke="#7c3aed" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="655" y="326" fill="#c4b5fd">IoT</text>
+    <rect x="704" y="306" width="106" height="30" rx="15" fill="#2f81f7" fill-opacity="0.14" stroke="#2f81f7" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="757" y="326" fill="#93c5fd">SECURITY</text>
+    <rect x="826" y="306" width="62" height="30" rx="15" fill="#f43f5e" fill-opacity="0.13" stroke="#f43f5e" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="857" y="326" fill="#fda4af">R&amp;D</text>
+  </g>
+
+  <rect x="0" y="410" width="1280" height="10" fill="url(#prxFlow)" opacity="0.85"/>
+</svg>
