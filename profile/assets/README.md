@@ -6,7 +6,9 @@ image or its alt text here, update the README to match (and vice versa).
 
 | File | One-line summary | Canonical alt text | Used in |
 |------|------------------|--------------------|---------|
-| `hero.svg` | Animated dark banner reading **"PRIVEX TECHNOLOGIES — ENGINEERING INTELLIGENT SYSTEMS"** with domain chips (software, AI, hardware, IoT, security, R&D), circuit mesh and glowing particles | `Privex Technologies — Engineering Intelligent Systems. Software · AI · Hardware · IoT · Security · R&D` | Page header |
+| `logo-on-light.png` | Official Privex logo mark for **light backgrounds** (512×512, from privextechnologies.com) — spare copy kept for other uses | `Privex Technologies logo` | — |
+| `logo-on-dark.png` | Official Privex logo mark for **dark backgrounds** (512×512, from privextechnologies.com) — **embedded inside `hero.svg`** (base64); not referenced directly | *(n/a)* | `hero.svg` chip |
+| `hero.svg` | Animated dark banner with the **official logo chip**, reading **"PRIVEX TECHNOLOGIES — ENGINEERING INTELLIGENT SYSTEMS"**, plus domain chips (software, AI, hardware, IoT, security, R&D), circuit mesh and glowing particles — logo PNG embedded as base64, swap `profile/assets/logo-on-dark.png` and re-embed to update | `Privex Technologies — Engineering Intelligent Systems. Software · AI · Hardware · IoT · Security · R&D` | Page header |
 | `icon-ai.svg` | Rounded-square icon: robot face with radiating signal lines | `AI & Intelligent Systems` | Core Domains · AI cell |
 | `icon-iot.svg` | Rounded-square icon: device under radio waves | `IoT & Embedded Systems` | Core Domains · IoT cell |
 | `icon-security.svg` | Rounded-square icon: shield with a check mark | `Security Engineering` | Core Domains · Security cell |
